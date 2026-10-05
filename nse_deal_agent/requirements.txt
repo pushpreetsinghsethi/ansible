@@ -1,0 +1,6 @@
+pandas>=2.0
+numpy>=1.24
+requests>=2.31
+anthropic>=1.0        # Claude news/sentiment research (optional with --no-ai)
+yfinance>=0.2.40      # optional fallback for price history when NSE blocks the request
+pytest>=8             # tests only
